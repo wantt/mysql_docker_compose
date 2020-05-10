@@ -1,5 +1,5 @@
 
-MYSQL_ROOT_PASSWORD="wtt@564i1111"
+MYSQL_ROOT_PASSWORD="your_password"
 
 
 sed -i '1c GRANT ALL PRIVILEGES ON *.* TO "'root"'@'"%'" IDENTIFIED BY "'$MYSQL_ROOT_PASSWORD'" WITH GRANT OPTION;' init/init.sql

@@ -1,4 +1,4 @@
-GRANT ALL PRIVILEGES ON *.* TO "root'@'%" IDENTIFIED BY "wtt@564" WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO "root'@'%" IDENTIFIED BY "your_password" WITH GRANT OPTION;
 FLUSH PRIVILEGES ;
 
 create database if not exists db_scmj;
